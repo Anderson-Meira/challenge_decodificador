@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:#E9ECF8;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+header img{
+   margin-left: 5%;
+   margin-top: 8px;
+   height: 50%;
+
+}
+
+.textoDigitar{
+    height: 100%;
+    width: 40%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#texto, #texto2{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    font-size: 30px;
+    color: #0A3871;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    text-transform: lowercase;
+    resize: none;
+}
+
+
+.aviso{
+    display: flex;
+    font-family: "Inter" sans-serif;
+    font-size: 12px;
+    gap:8px;
+}
+
+.botoes{
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.botoes button{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    font-family: "Inter" sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+#criptografar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.5s ease;
+}
+
+#criptografar:hover{
+    background-color: #D8DFE8;
+    color: #0A3871 ;
+    border: 2px solid #0A3871;
+    transition: 0.5s ease;
+}
+
+#decriptografar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    transition: 0.5s ease;
+}
+
+#descriptografar:hover{
+    background-color: #0A3871 ;
+    color:#D8DFE8;
+    border: none;
+}
+
+#textoConvertido{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 368px ;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;  
+}
+
+#textoConvertido h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Inter" sans-serif;
+}
+
+#textoConvertido p{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Inter" sans-serif;
+}
+
+/* Estilo para os botões de copiar e limpar */
+.btnCopiar, .btnLimpar {
+    width: 100px; /* Define a largura uniforme */
+    height: 60px; /* Define a altura uniforme */
+    border-radius: 24px; /* Bordas arredondadas */
+    font-family: "Inter", sans-serif; /* Fonte consistente */
+    font-size: 20px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    border: none; /* Remove a borda padrão */
+    color: #FFFFFF; /* Cor do texto */
+    background-color: #0A3871; /* Cor de fundo padrão */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Estilo para o botão de copiar quando estiver em foco */
+.btnCopiar:focus {
+    outline: none; /* Remove a borda de foco */
+}
+
+/* Estilo para o botão de limpar quando estiver em foco */
+.btnLimpar:focus {
+    outline: none; /* Remove a borda de foco */
+}
+
+/* Estilo para o botão de copiar ao passar o mouse */
+.btnCopiar:hover {
+    background-color: #D8DFE8; /* Cor de fundo ao passar o mouse */
+    color: #0A3871; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o botão de limpar ao passar o mouse */
+.btnLimpar:hover {
+    background-color: #D8DFE8; /* Cor de fundo ao passar o mouse */
+    color: #0A3871; /* Cor do texto ao passar o mouse */
+}
+
+.botoes2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #E9ECF8;
+    color: #0A3871;
+}
+
